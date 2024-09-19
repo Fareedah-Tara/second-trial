@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family:  sans-serif;
+}
+.Rectangle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px 0 160px;
+}
+body{
+width: 100%;
+
+}
+.button{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 4px 8px;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    border: none;
+}
+.message{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 4px 8px;
+    border-radius: 15px;
+    background-color: #A4DB74;
+    border: #A4DB74;
+    cursor: pointer;
+}
+a{
+    margin-left: 12px;
+}
+a:link{
+color: #000000;
+text-decoration: none;
+}
+a:visited{
+    color: #000000;
+}
+a:hover{
+color: #8e8989;
+font-weight: lighter;
+text-decoration: none;
+}
+a:active{
+    background-color: #444;
+    font-style: italic;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.image{
+    width: 36px;
+    height: 33px;
+}
+
+/* nav a :link:last-child{
+    margin-right: 0;
+} */
+/* header{
+    float: right;
+}
+nav{
+    float: left;
+} */
+/* nav{
+    text-align: right;
+} */
+
+/* .logo{
+margin-left: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-right: 10px;
+} */
+/* .logo-name{
+
+ margin-left: 70px;
+ margin-bottom: 30px;
+ margin-right:60px ;
+} */
+/* .Rectangle{
+    margin-bottom: 100px;
+    grid-template-columns: 1fr 200px;
+    align-items: normal;
+} */
