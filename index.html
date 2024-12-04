@@ -3,28 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" 
+
+    rel="stylesheet">
     <link href="style.css" rel="stylesheet"/>
     <title> second trial</title>
 </head>
 <body>
-    <header class="Rectangle">
-       <div class="logo">
-        <img src="img/logo.svg" class="image" />
-        <p>Qoterra</p>
-        </div> 
-         <nav>
-            
-            <a href="#"> Home</a>
-                <a href="#">About</a>
-                <a href="#"> Product </a>
-                    <a href="#"> Features </a>
-                        <a href="#"> Pricing</a>
-        
-         </nav>
-         <div>
-        <button class="button">Login </button> 
-        <button class="message">Demo</button>
-    </div>
-    </header>
+    <section>
+        <header class="Rectangle">
+            <div class="logo">
+                <img class="image" alt="Qoterra logo" src="img/logo.svg"  />
+                <p>Qoterra</p>
+            </div> 
+            <nav class="main-nav">  
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="#"> Home</a></li>
+                    <li><a class="main-nav-link" href="#">About</a></li>
+                    <li><a class="main-nav-link" href="#"> Product</a></li>
+                    <li><a class="main-nav-link" href="#"> Features </a></li>
+                    <li><a class="main-nav-link" href="#"> Pricing</a></li>     
+                </ul>  
+            </nav>
+            <div class="btn">
+                <button class="button">Login </button> 
+                <button class="message">Demo</button>
+            </div>
+        </header>
+    </section>
+    <section >
+        <div class="hero-section">
+            <div class="title">
+                <h1 class="hero-heading"> Manage Your Team's <span>chat  with Qoterra </span> </h1>  
+                <p class="hero-description">stay connected to your team and office without any worrying about distance and
+                    <span class="second-line"></span>remote locations. Get all convenience by using Qoterra</span>
+                </p>
+                <!-- <span class="links"> -->
+                    <form>
+                        <div class="search">
+                            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                            <input class="search-input" type="search" placeholder="search">
+                            <!-- <a href="#" class="search-box">
+                            </a> -->
+                        </div>
+                        <a href="#" class="reg">Register</a>
+                    </form>
+                    <!-- </span> -->
+            </div>
+            <div class="Dashboard">
+                <figure">
+                    <img src="img/Dashboard design.png" class="Dashboard-img"
+                    alt="pictures of charts "/>
+                </figure>
+            </div>  
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
